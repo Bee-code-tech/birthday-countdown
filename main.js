@@ -2,7 +2,7 @@
 const countdown = () => {
   const clock = document.querySelector('.countdown');
   const numbers = document.querySelectorAll('.txt');
-  const countDate = new Date("February 28, 2023 00:00:00").getTime();
+  const countDate = new Date("February 28, 2025 00:00:00").getTime();
   const currentTime = new Date().getTime();
   
   const gap = countDate - currentTime;
